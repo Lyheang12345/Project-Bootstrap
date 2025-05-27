@@ -1,0 +1,234 @@
+/* .container{
+    margin-top: 150px;
+} */
+.navbar {
+  width: 86%;
+  border-bottom-width: 2px !important;
+  justify-content: center;
+  display: flex;
+}
+.navbar a {
+  color: #fff;
+  align-items: center;
+}
+.navbar-brand img {
+  width: 150px;
+}
+
+.nav {
+  transition-duration: 0.5s;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: gold;
+}
+
+.btn {
+  transition-duration: 0.2s;
+  font-family: "Cal Sans", sans-serif;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hero {
+  padding-top: 150px;
+}
+
+.hero .main-title {
+  font-size: 60px !important;
+}
+
+.hero .des {
+  color: rgba(159, 159, 159, 0.706);
+  padding-left: 100px !important;
+}
+
+.hero .btn {
+  margin-left: 100px;
+}
+
+/* .collapse {
+    margin-left: -300px;
+} */
+.nav-btn {
+  margin-left: 300px;
+}
+:root {
+  --color-gold: gold;
+  --color-white: #fff;
+}
+.btn {
+  border-radius: 0;
+  background-color: var(--color-gold);
+  color: #000;
+  font-size: 0.9cm;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.btn:hover {
+  background-color: var(--color-white);
+}
+
+/* section gallary */
+.container-gallary {
+  padding-top: 150px;
+}
+.title-gym {
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.title-gym::before {
+  content: "";
+  width: 50%;
+  left: 0;
+  height: 5px;
+  background-color: gold;
+  display: block;
+}
+.title-gym::after {
+  content: "";
+  height: 5px;
+  right: 0;
+  width: 50%;
+  background-color: gold;
+  display: block;
+}
+.gallary {
+  width: 100%;
+}
+.gallary-profile {
+  padding-bottom: 40px !important;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .title-main {
+    width: 60%;
+  }
+  .main-Pic2 {
+    width: 50%;
+  }
+  .main-Pic2 {
+    width: 400px;
+    height: 400px;
+  }
+  .card-contact {
+    width: 40%;
+  }
+
+  /* all gallary*/
+  .all-gallary {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px !important;
+  }
+  .all-gallary img {
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+  }
+}
+
+.img-container {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 18px;
+  transition: all 0.5s;
+  object-fit: cover;
+}
+.all-gallary img {
+  filter: grayscale(1);
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.5s;
+  height: 100%;
+  object-fit: cover;
+}
+.all-gallary .img-container:hover {
+  border: 2px solid gold;
+}
+
+.img-container img:hover {
+  scale: 1.1;
+  filter: grayscale(0);
+}
+
+/* Section Choose money*/
+.block-title {
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.block-title .des {
+  padding: 0 !important;
+}
+.block-money {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding: 50px;
+  border: 20px solid gold;
+  width: 40%;
+}
+
+.money-title {
+  font-size: 30px !important;
+}
+.money-des {
+  padding: 0 !important;
+}
+.money-list li {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  color: #fff;
+  padding: 0 !important;
+}
+.money-list li img {
+  width: 20px;
+  height: 20px;
+}
+.price {
+  color: #fff;
+  padding-top: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.btn-money {
+  background-color: gold;
+  padding: 15px 50px;
+}
+
+/* Map Section*/
+.map-container {
+  padding: 150px;
+}
+.map-container .map {
+  height: 700px;
+  filter: invert(5);
+}
